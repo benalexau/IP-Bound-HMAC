@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "ip-bound-hmac",
+  "version": "1.0.0",
+  "description": "Returns a SHA-256 HMAC of the requesting IP address + ':' + the path",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "Ben Alex <ben.alex@acegi.com.au>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}

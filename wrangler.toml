@@ -1,0 +1,6 @@
+name = "ip-bound-hmac"
+type = "javascript"
+account_id = ""
+workers_dev = false
+route = "ip-bound-hmac.YOUR-DOMAIN/*"
+zone_id = ""
