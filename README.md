@@ -13,7 +13,7 @@ response which can be used for purposes such as unsealing a local key store.
 3. Install [Wrangler](https://developers.cloudflare.com/workers/cli-wrangler/install-update)
 4. Configure with `wrangler login`
 5. Clone this repository
-6. Edit `wrangler.yaml` as appropriate for your domain
+6. Rename `wrangler.yaml.example` to `wrangler.yaml` and adjust to your domain
 7. Create a secret using `wrangler secret put SECRET`
 8. Deploy using `wrangler publish`
 
